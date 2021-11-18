@@ -1,0 +1,90 @@
+{
+  "id": "49cd883b-2ac1-4f2c-be9d-7cd3c381e448",
+  "parentId": "9ca9ced4-0467-4be3-8708-1f14e6381319",
+  "rootParentId": "9ca9ced4-0467-4be3-8708-1f14e6381319",
+  "name": "Name and Address - yes",
+  "auto": true,
+  "contexts": [
+    "NameandAddress-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "NameandAddress.NameandAddress-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "11ab58b3-d766-4ffc-b22e-fea9d7d705a9",
+          "name": "person",
+          "required": false,
+          "dataType": "",
+          "value": "#nameandaddress.person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "66ee634c-873c-45b9-ae4e-d420f66279a6",
+          "name": "canton",
+          "required": false,
+          "dataType": "",
+          "value": "#nameandaddress.canton",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "95be806b-420b-46a4-b9f4-afa088acef3e",
+          "name": "address",
+          "required": false,
+          "dataType": "",
+          "value": "#nameandaddress.address",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Perfect, I have all the information I need.\nI am arranging an ambulance for you now, $person and it will be sent to:\n$address in $canton."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "de",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

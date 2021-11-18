@@ -1,0 +1,193 @@
+[
+  {
+    "id": "2f04bea3-84ca-4d0b-ae9a-b1fb983443d4",
+    "data": [
+      {
+        "text": "I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "Andrew Smith",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      },
+      {
+        "text": ", and I need help at ",
+        "userDefined": false
+      },
+      {
+        "text": "Herrenweg 105",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Ticino",
+        "meta": "@canton",
+        "alias": "canton",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8c70edb4-f0fb-4d89-877f-5bbc580d0872",
+    "data": [
+      {
+        "text": "Michael Michaelson,",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Hauptstrasse 42",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Ticino",
+        "meta": "@canton",
+        "alias": "canton",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d7381a15-9f34-4310-bf6c-126e41cd2568",
+    "data": [
+      {
+        "text": "Of course.  My name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Fred Smith",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": true
+      },
+      {
+        "text": " and the accident happened at ",
+        "userDefined": false
+      },
+      {
+        "text": "Allschwilerstrasse 105",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Basel",
+        "meta": "@canton",
+        "alias": "canton",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2c4c3c7a-6913-4ba2-8dc7-96588628475b",
+    "data": [
+      {
+        "text": "My name is ",
+        "userDefined": false
+      },
+      {
+        "text": "John",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      },
+      {
+        "text": " and the address is ",
+        "userDefined": false
+      },
+      {
+        "text": "Kirchgasse 12",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Zürich",
+        "meta": "@canton",
+        "alias": "canton",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8c825ce3-8dd3-49c4-9779-07c914b1d40a",
+    "data": [
+      {
+        "text": "I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "Adrian",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": true
+      },
+      {
+        "text": ".  My address is ",
+        "userDefined": false
+      },
+      {
+        "text": "Spalenring 15",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Basel Stadt",
+        "meta": "@canton",
+        "alias": "canton",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

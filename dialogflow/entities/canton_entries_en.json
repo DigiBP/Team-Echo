@@ -1,0 +1,163 @@
+[
+  {
+    "value": "Zürich",
+    "synonyms": [
+      "Zürich"
+    ]
+  },
+  {
+    "value": "Bern",
+    "synonyms": [
+      "Bern",
+      "Berne"
+    ]
+  },
+  {
+    "value": "Luzern",
+    "synonyms": [
+      "Luzern",
+      "Lucerne"
+    ]
+  },
+  {
+    "value": "Uri",
+    "synonyms": [
+      "Uri"
+    ]
+  },
+  {
+    "value": "Schwyz",
+    "synonyms": [
+      "Schwyz"
+    ]
+  },
+  {
+    "value": "Obwalden",
+    "synonyms": [
+      "Obwalden"
+    ]
+  },
+  {
+    "value": "Nidwalden",
+    "synonyms": [
+      "Nidwalden"
+    ]
+  },
+  {
+    "value": "Glarus",
+    "synonyms": [
+      "Glarus"
+    ]
+  },
+  {
+    "value": "Zug",
+    "synonyms": [
+      "Zug"
+    ]
+  },
+  {
+    "value": "Fribourg",
+    "synonyms": [
+      "Freiburg",
+      "Fribourg"
+    ]
+  },
+  {
+    "value": "Solothurn",
+    "synonyms": [
+      "Solothurn"
+    ]
+  },
+  {
+    "value": "Basel",
+    "synonyms": [
+      "Basel",
+      "Basel-Stadt",
+      "Basel-City",
+      "Basel-Landschaft",
+      "Basel-Land"
+    ]
+  },
+  {
+    "value": "Schaffhausen",
+    "synonyms": [
+      "Schaffhausen"
+    ]
+  },
+  {
+    "value": "Appenzell Ausserhoden",
+    "synonyms": [
+      "Appenzell Ausserhoden"
+    ]
+  },
+  {
+    "value": "Appenzell Innerrhoden",
+    "synonyms": [
+      "Appenzell Innerrhoden",
+      " Appenzell"
+    ]
+  },
+  {
+    "value": "St. Gallen",
+    "synonyms": [
+      "St Gallen",
+      " Sankt Gallen"
+    ]
+  },
+  {
+    "value": "Graubünden",
+    "synonyms": [
+      "Graubünden"
+    ]
+  },
+  {
+    "value": "Aargau",
+    "synonyms": [
+      "Aargau"
+    ]
+  },
+  {
+    "value": "Thurgau",
+    "synonyms": [
+      "Thurgau"
+    ]
+  },
+  {
+    "value": "Ticino",
+    "synonyms": [
+      "Ticino"
+    ]
+  },
+  {
+    "value": "Vaud",
+    "synonyms": [
+      "Vaud"
+    ]
+  },
+  {
+    "value": "Valais",
+    "synonyms": [
+      "Wallis",
+      "Valais"
+    ]
+  },
+  {
+    "value": "Neuchâtel",
+    "synonyms": [
+      "Neuchâtel"
+    ]
+  },
+  {
+    "value": "Genève",
+    "synonyms": [
+      "Genève",
+      " Geneva"
+    ]
+  },
+  {
+    "value": "Jura",
+    "synonyms": [
+      "Jura"
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "id": "66a59322-b6e0-4b62-9872-17670fbd257a",
+  "parentId": "9ca9ced4-0467-4be3-8708-1f14e6381319",
+  "rootParentId": "9ca9ced4-0467-4be3-8708-1f14e6381319",
+  "name": "Name and Address - no",
+  "auto": true,
+  "contexts": [
+    "NameandAddress-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "NameandAddress.NameandAddress-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry I got it wrong.   Maybe it\u0027s a bad line.\nPlease repeat your name and address clearly."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "de",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

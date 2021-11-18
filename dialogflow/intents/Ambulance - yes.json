@@ -1,0 +1,47 @@
+{
+  "id": "b2f8200b-7af4-4287-9168-0ef2136076f1",
+  "parentId": "0ae9c51b-de43-4d6d-b9e7-7c87f5e5c5b3",
+  "rootParentId": "0ae9c51b-de43-4d6d-b9e7-7c87f5e5c5b3",
+  "name": "Ambulance - yes",
+  "auto": true,
+  "contexts": [
+    "Ambulance-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Ambulance.Ambulance-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "OK, we will send one to you.  First, please tell me your name and address and include the Canton you\u0027re in.",
+            "Please tell me your name and the address you need the ambulance sent to.  Include the canton please."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "de",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "04a58fa5-6e7f-477e-a0ef-d658dafc0ed3",
+  "parentId": "0ae9c51b-de43-4d6d-b9e7-7c87f5e5c5b3",
+  "rootParentId": "0ae9c51b-de43-4d6d-b9e7-7c87f5e5c5b3",
+  "name": "Ambulance - no",
+  "auto": true,
+  "contexts": [
+    "Ambulance-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Ambulance.Ambulance-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "OK, no problem.  Bye!",
+            "OK, we won\u0027t send one.",
+            "That\u0027s ok.  Take care.  Bye."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "de",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}
