@@ -1,0 +1,10 @@
+<!-- Add the following code to your website to integrate the chatbot -->
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Emergency-Call"
+  agent-id="a2d65218-33cb-4a82-9a5b-d9ff0e1bbe65"
+  language-code="en"
+></df-messenger>
+<meta name="viewport" content="width-device-width, initial-scale=1">
