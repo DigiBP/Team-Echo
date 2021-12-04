@@ -1,10 +1,10 @@
 # Team Echo <img src="https://static.thenounproject.com/png/27202-200.png" width="50" height="50">
 ###### Adrian, Jérôme, Xi, Michèle
 
-## Emergency Room Admissions Process <img src="https://cdn.iconscout.com/icon/free/png-256/emergency-call-2199806-1833385.png" width="80" height="80">
+## Emergency Room Admissions Process <img src="https://cdn.iconscout.com/icon/free/png-256/emergency-call-2199806-1833385.png" width="70" height="70">
 
 Check out our [Emergency call Chatbot](https://bot.dialogflow.com/a2d65218-33cb-4a82-9a5b-d9ff0e1bbe65)
-<img src="https://thumbs.dreamstime.com/b/robot-icon-chat-bot-sign-support-service-concept-chatbot-character-flat-style-robot-icon-chat-bot-sign-support-service-138271515.jpg" width="80" height="80">
+<img src="https://i.pinimg.com/originals/0c/67/5a/0c675a8e1061478d2b7b21b330093444.gif" width="80" height="60">
 
 
 ### Links
