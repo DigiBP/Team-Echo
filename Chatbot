@@ -1,4 +1,4 @@
-<!-- Add the following code to your website to integrate the chatbot -->
+<!-- Text-based chatbot with custmized icon and interactive user interface -->
 
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
@@ -8,3 +8,11 @@
   language-code="en"
 ></df-messenger>
 <meta name="viewport" content="width-device-width, initial-scale=1">
+
+<!-- Voice-assisted chatbot with default Dialogflow user interface -->
+<iframe
+    allow="microphone;"
+    width="380"
+    height="500"
+    src="https://console.dialogflow.com/api-client/demo/embedded/a2d65218-33cb-4a82-9a5b-d9ff0e1bbe65">
+</iframe>
