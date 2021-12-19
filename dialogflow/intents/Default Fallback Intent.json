@@ -52,6 +52,20 @@
             "Kannst du das noch mal anders formulieren?"
           ],
           "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "fr",
+          "speech": [
+            "J\u0027ai du mal à comprendre cette question.",
+            "J\u0027ai mal compris votre demande.",
+            "Je n\u0027ai pas saisi ce que vous avez dit.",
+            "Je crois que je ne vous suis pas.",
+            "Je ne comprends pas de quoi vous me parlez."
+          ],
+          "condition": ""
         }
       ],
       "speech": []

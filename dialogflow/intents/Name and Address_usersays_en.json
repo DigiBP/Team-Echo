@@ -1,5 +1,189 @@
 [
   {
+    "id": "a9f5590f-db1a-4a30-b1e5-e3d8394da35b",
+    "data": [
+      {
+        "text": "Marie Curie",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Clarastrasse 45",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Basel",
+        "meta": "@canton",
+        "alias": "canton",
+        "userDefined": false
+      },
+      {
+        "text": ". My number is ",
+        "userDefined": false
+      },
+      {
+        "text": "0754895236",
+        "meta": "@sys.phone-number",
+        "alias": "phoneNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f131a0a0-0183-4820-b9ef-86970d0c144d",
+    "data": [
+      {
+        "text": "Dakota",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      },
+      {
+        "text": ", i\u0027m at ",
+        "userDefined": false
+      },
+      {
+        "text": "the Baslerstrasse 111",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Zürich",
+        "meta": "@canton",
+        "alias": "canton",
+        "userDefined": false
+      },
+      {
+        "text": ". Please call ",
+        "userDefined": false
+      },
+      {
+        "text": "0041617852642",
+        "meta": "@sys.phone-number",
+        "alias": "phoneNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2815f3e7-dada-41c8-bee9-cccc09a4b6c7",
+    "data": [
+      {
+        "text": "Peter Johnson",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      },
+      {
+        "text": ", the accident happened at ",
+        "userDefined": false
+      },
+      {
+        "text": "Allschwilerstrasse 4",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Basel",
+        "meta": "@canton",
+        "alias": "canton",
+        "userDefined": false
+      },
+      {
+        "text": ". ",
+        "userDefined": false
+      },
+      {
+        "text": "0798452658",
+        "meta": "@sys.phone-number",
+        "alias": "phoneNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f8929a04-c226-4a41-9964-dffaa3ffb1e9",
+    "data": [
+      {
+        "text": "My name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Jane Smith",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": true
+      },
+      {
+        "text": " and the accident is at ",
+        "userDefined": false
+      },
+      {
+        "text": "Bahnhofstrasse 1",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": true
+      },
+      {
+        "text": ", 8001 ",
+        "userDefined": false
+      },
+      {
+        "text": "St.Gallen.",
+        "meta": "@canton",
+        "alias": "canton",
+        "userDefined": true
+      },
+      {
+        "text": " My number is ",
+        "userDefined": false
+      },
+      {
+        "text": "078 545 14 58",
+        "meta": "@sys.phone-number",
+        "alias": "phoneNumber",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "2f04bea3-84ca-4d0b-ae9a-b1fb983443d4",
     "data": [
       {
@@ -27,10 +211,20 @@
         "userDefined": false
       },
       {
-        "text": "Ticino",
+        "text": "Ticino,",
         "meta": "@canton",
         "alias": "canton",
         "userDefined": false
+      },
+      {
+        "text": " please. My phone number is ",
+        "userDefined": false
+      },
+      {
+        "text": "+41789564752",
+        "meta": "@sys.phone-number",
+        "alias": "phoneNumber",
+        "userDefined": true
       }
     ],
     "isTemplate": false,
@@ -62,48 +256,19 @@
         "userDefined": false
       },
       {
-        "text": "Ticino",
+        "text": "Ticino.",
         "meta": "@canton",
         "alias": "canton",
         "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "d7381a15-9f34-4310-bf6c-126e41cd2568",
-    "data": [
+      },
       {
-        "text": "Of course.  My name is ",
+        "text": " You can call me at ",
         "userDefined": false
       },
       {
-        "text": "Fred Smith",
-        "meta": "@sys.person",
-        "alias": "person",
-        "userDefined": true
-      },
-      {
-        "text": " and the accident happened at ",
-        "userDefined": false
-      },
-      {
-        "text": "Allschwilerstrasse 105",
-        "meta": "@sys.address",
-        "alias": "address",
-        "userDefined": true
-      },
-      {
-        "text": ", ",
-        "userDefined": false
-      },
-      {
-        "text": "Basel",
-        "meta": "@canton",
-        "alias": "canton",
+        "text": "0795484152",
+        "meta": "@sys.phone-number",
+        "alias": "phoneNumber",
         "userDefined": true
       }
     ],
@@ -140,10 +305,24 @@
         "userDefined": false
       },
       {
-        "text": "Zürich",
+        "text": "Zürich.",
         "meta": "@canton",
         "alias": "canton",
         "userDefined": true
+      },
+      {
+        "text": " My number is ",
+        "userDefined": false
+      },
+      {
+        "text": "0785284526",
+        "meta": "@sys.phone-number",
+        "alias": "phoneNumber",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
       }
     ],
     "isTemplate": false,
@@ -182,6 +361,16 @@
         "text": "Basel Stadt",
         "meta": "@canton",
         "alias": "canton",
+        "userDefined": true
+      },
+      {
+        "text": " and my phone number is ",
+        "userDefined": false
+      },
+      {
+        "text": "0795482558",
+        "meta": "@sys.phone-number",
+        "alias": "phoneNumber",
         "userDefined": true
       }
     ],

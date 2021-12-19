@@ -10,12 +10,12 @@
       "affectedContexts": [
         {
           "name": "NameandAddress-followup",
-          "lifespan": 2
+          "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "ce81a8a9-1801-4949-9530-d1155bd0e02f",
+          "id": "7eae312d-8fc0-49d1-85d9-23f9cededb1b",
           "name": "person",
           "required": true,
           "dataType": "@sys.person",
@@ -34,7 +34,7 @@
           "outputDialogContexts": []
         },
         {
-          "id": "ed0db831-e351-4718-bd18-1b1d55b09099",
+          "id": "113ecbcb-d8b5-44d9-9528-60da7fb4269b",
           "name": "canton",
           "required": true,
           "dataType": "@canton",
@@ -53,17 +53,40 @@
           "outputDialogContexts": []
         },
         {
-          "id": "0e0ddb3f-3d64-47da-80d3-82556fcbaa68",
+          "id": "29af4d8a-dd30-43c2-9edf-78fc033b72d6",
           "name": "address",
           "required": true,
           "dataType": "@sys.address",
           "value": "$address",
           "defaultValue": "",
-          "isList": false,
+          "isList": true,
           "prompts": [
             {
               "lang": "en",
               "value": "Sorry, I didn\u0027t catch the address.  Please say it again clearly."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "fa88bafd-3938-4bf4-a64e-48245321940d",
+          "name": "phoneNumber",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phoneNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Could you please tell me your phone number?"
+            },
+            {
+              "lang": "en",
+              "value": "At which number can I contact you?"
             }
           ],
           "promptMessages": [],
@@ -79,7 +102,7 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "Thank you $person\nPlease confirm that you need an ambulance for canton $canton at $address\nHave I got the details right?"
+            "Thank you $person\nPlease confirm that you need an ambulance for canton $canton at $address and your phone number is $phoneNumber\nHave I got the details right?"
           ],
           "condition": ""
         }

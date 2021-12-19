@@ -23,7 +23,8 @@
           "speech": [
             "Hi, do you need an ambulance?",
             "Do you have a medical emergency and require an ambulance?",
-            "Has there been an accident?  Should we send an ambulance?"
+            "Has there been an accident?  Should we send an ambulance?",
+            "Hi, what happened?"
           ],
           "condition": ""
         },
@@ -36,6 +37,19 @@
             "Hallo!",
             "Guten Tag!",
             "Ich grüße dich!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "fr",
+          "speech": [
+            "Salut !",
+            "Bonjour !",
+            "Salutations !",
+            "Bienvenue !"
           ],
           "condition": ""
         }

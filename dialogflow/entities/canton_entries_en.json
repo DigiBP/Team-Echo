@@ -2,7 +2,8 @@
   {
     "value": "Zürich",
     "synonyms": [
-      "Zürich"
+      "Zürich",
+      "Zurich"
     ]
   },
   {
@@ -75,7 +76,13 @@
       "Basel-Stadt",
       "Basel-City",
       "Basel-Landschaft",
-      "Basel-Land"
+      "Basel-Land",
+      "BS",
+      "BL",
+      "Basel-Country",
+      "Basilea",
+      "Bâle",
+      "Basle"
     ]
   },
   {
@@ -125,7 +132,8 @@
   {
     "value": "Ticino",
     "synonyms": [
-      "Ticino"
+      "Ticino",
+      "Tessin"
     ]
   },
   {
@@ -151,7 +159,8 @@
     "value": "Genève",
     "synonyms": [
       "Genève",
-      " Geneva"
+      "Geneva",
+      "Genf"
     ]
   },
   {

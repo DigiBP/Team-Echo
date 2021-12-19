@@ -20,8 +20,8 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "OK, we will send one to you.  First, please tell me your name and address and include the Canton you\u0027re in.",
-            "Please tell me your name and the address you need the ambulance sent to.  Include the canton please."
+            "OK, we will send one to you.  First, please tell me your name, address including the Canton you\u0027re in and your phone number.",
+            "Please tell me your name and the address you need the ambulance sent to.  Include the canton and your phone number please."
           ],
           "condition": ""
         },
@@ -31,8 +31,18 @@
           "textToSpeech": "",
           "lang": "de",
           "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "fr",
+          "condition": ""
         }
       ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
       "speech": []
     }
   ],

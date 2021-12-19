@@ -1,5 +1,5 @@
 {
-  "id": "49cd883b-2ac1-4f2c-be9d-7cd3c381e448",
+  "id": "620232ca-0388-4fb8-92ae-13f0fbafcc9f",
   "parentId": "9ca9ced4-0467-4be3-8708-1f14e6381319",
   "rootParentId": "9ca9ced4-0467-4be3-8708-1f14e6381319",
   "name": "Name and Address - yes",
@@ -14,11 +14,11 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "11ab58b3-d766-4ffc-b22e-fea9d7d705a9",
+          "id": "d0570a5c-a8b3-4e7a-948c-ca65c15e45af",
           "name": "person",
           "required": false,
           "dataType": "",
-          "value": "#nameandaddress.person",
+          "value": "#NameandAddress-followup.person",
           "defaultValue": "",
           "isList": false,
           "prompts": [],
@@ -28,11 +28,11 @@
           "outputDialogContexts": []
         },
         {
-          "id": "66ee634c-873c-45b9-ae4e-d420f66279a6",
+          "id": "9cf3d20d-959c-49b8-82b7-94f27bd5b34b",
           "name": "canton",
           "required": false,
           "dataType": "",
-          "value": "#nameandaddress.canton",
+          "value": "#NameandAddress-followup.canton",
           "defaultValue": "",
           "isList": false,
           "prompts": [],
@@ -42,11 +42,25 @@
           "outputDialogContexts": []
         },
         {
-          "id": "95be806b-420b-46a4-b9f4-afa088acef3e",
+          "id": "cd6e199c-a5a2-4c3d-a3ea-eb9fb0ee65fc",
           "name": "address",
           "required": false,
           "dataType": "",
-          "value": "#nameandaddress.address",
+          "value": "#NameandAddress-followup.address",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "091c585f-9c9b-44b1-b0da-95cdce9f16a5",
+          "name": "phoneNumber",
+          "required": false,
+          "dataType": "",
+          "value": "#NameandAddress-followup.phoneNumber",
           "defaultValue": "",
           "isList": false,
           "prompts": [],
@@ -63,7 +77,7 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "Perfect, I have all the information I need.\nI am arranging an ambulance for you now, $person and it will be sent to:\n$address in $canton."
+            "Perfect, I have all the information I need.\nI am arranging an ambulance for you now, $person and it will be sent to:\n$address in $canton with $phoneNumber"
           ],
           "condition": ""
         },
@@ -72,6 +86,13 @@
           "title": "",
           "textToSpeech": "",
           "lang": "de",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "fr",
           "condition": ""
         }
       ],
@@ -85,6 +106,5 @@
   "events": [],
   "conditionalResponses": [],
   "condition": "",
-  "conditionalFollowupEvents": [],
-  "endInteraction": true
+  "conditionalFollowupEvents": []
 }

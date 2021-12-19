@@ -1,10 +1,13 @@
 {
-  "description": "",
+  "description": "Swiss Ambulance Service",
   "language": "en",
   "shortDescription": "",
   "examples": "",
   "linkToDocs": "",
   "displayName": "Emergency-Call",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on"
+  ],
   "disableInteractionLogs": false,
   "disableStackdriverLogs": true,
   "googleAssistant": {
@@ -14,8 +17,7 @@
     "startIntents": [],
     "systemIntents": [],
     "endIntentIds": [
-      "04a58fa5-6e7f-477e-a0ef-d658dafc0ed3",
-      "49cd883b-2ac1-4f2c-be9d-7cd3c381e448"
+      "04a58fa5-6e7f-477e-a0ef-d658dafc0ed3"
     ],
     "voiceType": "VOICE_TYPE_UNSPECIFIED",
     "capabilities": [],
@@ -26,21 +28,22 @@
   },
   "defaultTimezone": "Europe/Madrid",
   "webhook": {
-    "url": "https://hook.integromat.com/pcgw6luonjygdfywsk0wfils8vv0ebn4",
+    "url": "https://hook.integromat.com/5d4rhfmj5917qi5w7c0cbt8r35vkmiur",
     "username": "",
     "headers": {},
     "available": true,
-    "useForDomains": false,
+    "useForDomains": true,
     "cloudFunctionsEnabled": false,
     "cloudFunctionsInitialized": false
   },
   "isPrivate": true,
   "mlMinConfidence": 0.3,
   "supportedLanguages": [
-    "de"
+    "de",
+    "fr"
   ],
   "enableOnePlatformApi": true,
-  "onePlatformApiVersion": "v2",
+  "onePlatformApiVersion": "v2beta1",
   "secondaryKey": "d1d7ca382c604727a978f0d239d5e6db",
   "analyzeQueryTextSentiment": false,
   "enabledKnowledgeBaseNames": [],

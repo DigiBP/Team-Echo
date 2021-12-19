@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="Decision_TreatmentLocation" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="4.11.1">
+  <decision id="TreatmentLocationID" name="Define treatment location">
+    <informationRequirement id="InformationRequirement_1e3bl4p">
+      <requiredInput href="#InputData_114shlr" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_19d7ugv">
+      <requiredInput href="#InputData_05wdsc3" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_0khdg2c">
+      <requiredInput href="#InputData_0gfgysz" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_0n2ig1q">
+      <requiredInput href="#InputData_07967ic" />
+    </informationRequirement>
+    <decisionTable id="DecisionTable_0kswd97">
+      <input id="InputClause_0zs0hhd" label="Age" camunda:inputVariable="PatientAge">
+        <inputExpression id="LiteralExpression_1v6tivi" typeRef="integer">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="Input_1" label="Operation" camunda:inputVariable="Operation">
+        <inputExpression id="InputExpression_1" typeRef="boolean">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_1mxcgi2" label="Monitoring" camunda:inputVariable="Monitoring">
+        <inputExpression id="LiteralExpression_1imf6hv" typeRef="boolean">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_07qeb9b" label="SpecialistAvailable" camunda:inputVariable="SpecialistAvailable">
+        <inputExpression id="LiteralExpression_1y32uph" typeRef="boolean">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="TreatmentLocation" name="TreatmentLocation" typeRef="string">
+        <outputValues id="UnaryTests_1pbk7wq">
+          <text>"local","noFurtherTreatment","transfer"</text>
+        </outputValues>
+      </output>
+      <rule id="DecisionRule_1q1cnrv">
+        <description>Treatment in own hospital</description>
+        <inputEntry id="UnaryTests_1w4y8rq">
+          <text>&gt;=18</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_03ziy9i">
+          <text>true</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0kga48f">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_00bmonz">
+          <text>true</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_13oh3qu">
+          <text>"local"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0a8g5g1">
+        <description>Transfer patient to other hospital</description>
+        <inputEntry id="UnaryTests_0iuygyu">
+          <text>&gt;=18</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1mhqjnx">
+          <text>true</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1c2m5gl">
+          <text>-</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_04b7mb8">
+          <text>false</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_134rafr">
+          <text>"transfer"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1w2okp7">
+        <description>Send patient home</description>
+        <inputEntry id="UnaryTests_180f1l5">
+          <text>&gt;=18</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1gqsa9v">
+          <text>false</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0aky43d">
+          <text>false</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0ffbxft">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0oumc21">
+          <text>"noFurtherTreatment"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1k505o3">
+        <description>Treatment in own hospital</description>
+        <inputEntry id="UnaryTests_1wpsd5q">
+          <text>&gt;=18</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0uxwkls">
+          <text>false</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0pesgbb">
+          <text>true</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_10n3a39">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_03pnkka">
+          <text>"local"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0jo77jd">
+        <description>Patient too young, transfer patient to children hospital</description>
+        <inputEntry id="UnaryTests_1d8g6cu">
+          <text>&lt;18</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0ok01ck">
+          <text>true</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_08qkoe5">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1k2ocmo">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_168wjdd">
+          <text>"transfer"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1bepbeo">
+        <description>Patient too young, transfer patient to children hospital</description>
+        <inputEntry id="UnaryTests_1rm8sm9">
+          <text>&lt;18</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0bc360w">
+          <text>false</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0bd6ypg">
+          <text>true</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1qqydi3">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0qdpbr1">
+          <text>"transfer"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1qw10tz">
+        <description>Send patient home</description>
+        <inputEntry id="UnaryTests_0spbhf7">
+          <text>&lt;18</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_11uolcd">
+          <text>false</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_02dz32t">
+          <text>false</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_090abfb">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_05c9a11">
+          <text>"noFurtherTreatment"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <inputData id="InputData_114shlr" name="Age" />
+  <inputData id="InputData_05wdsc3" name="Available Specialists" />
+  <inputData id="InputData_0gfgysz" name="Monitoring" />
+  <inputData id="InputData_07967ic" name="Operation" />
+  <knowledgeSource id="KnowledgeSource_1hjp6r7" name="Diagnosis">
+    <authorityRequirement id="AuthorityRequirement_19ahbqg">
+      <requiredInput href="#InputData_07967ic" />
+    </authorityRequirement>
+  </knowledgeSource>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="TreatmentLocationID">
+        <dc:Bounds height="80" width="180" x="380" y="210" />
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="DMNShape_1n7ncah" dmnElementRef="InputData_114shlr">
+        <dc:Bounds height="45" width="125" x="348" y="378" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0a7z76s" dmnElementRef="InformationRequirement_1e3bl4p">
+        <di:waypoint x="411" y="378" />
+        <di:waypoint x="440" y="310" />
+        <di:waypoint x="440" y="290" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_0nj446m" dmnElementRef="InputData_05wdsc3">
+        <dc:Bounds height="45" width="125" x="518" y="379" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_1ce8jyc" dmnElementRef="InformationRequirement_19d7ugv">
+        <di:waypoint x="581" y="379" />
+        <di:waypoint x="500" y="310" />
+        <di:waypoint x="500" y="290" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_0yvrpvd" dmnElementRef="InputData_0gfgysz">
+        <dc:Bounds height="45" width="125" x="519" y="98" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_1yymso6" dmnElementRef="InformationRequirement_0khdg2c">
+        <di:waypoint x="582" y="143" />
+        <di:waypoint x="500" y="190" />
+        <di:waypoint x="500" y="210" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_08ehavi" dmnElementRef="InputData_07967ic">
+        <dc:Bounds height="45" width="125" x="328" y="88" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_14h0656" dmnElementRef="InformationRequirement_0n2ig1q">
+        <di:waypoint x="391" y="133" />
+        <di:waypoint x="440" y="190" />
+        <di:waypoint x="440" y="210" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_167a7be" dmnElementRef="KnowledgeSource_1hjp6r7">
+        <dc:Bounds height="63" width="100" x="160" y="79" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_18t4jht" dmnElementRef="AuthorityRequirement_19ahbqg">
+        <di:waypoint x="328" y="110" />
+        <di:waypoint x="260" y="111" />
+      </dmndi:DMNEdge>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

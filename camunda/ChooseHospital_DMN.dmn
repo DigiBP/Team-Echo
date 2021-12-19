@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="Definitions_02wzb57" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="4.11.1">
+  <decision id="Decision_Hospital" name="Drive to which hospital?">
+    <informationRequirement id="InformationRequirement_0et5bik">
+      <requiredInput href="#InputData_036ixgq" />
+    </informationRequirement>
+    <decisionTable id="DecisionTable_05423f6" hitPolicy="FIRST">
+      <input id="InputClause_1kyixdx" label="Age" camunda:inputVariable="patientAge">
+        <inputExpression id="LiteralExpression_1qxhshc" typeRef="integer">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="Input_1" label="AccidentLocation" camunda:inputVariable="Canton">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="Hospital" name="hospital" typeRef="string" />
+      <rule id="DecisionRule_0pyhpt2">
+        <inputEntry id="UnaryTests_1w220tp">
+          <text>"&lt;18"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_12go6io">
+          <text>"Aargau"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1xp4r54">
+          <text>"UKBB - Universitäts-Kinderspital beider Basel"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_03dwha0">
+        <inputEntry id="UnaryTests_1v326c2">
+          <text>"&lt;18"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1ic7t6w">
+          <text>"Basel"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0wibahp">
+          <text>"UKBB - Universitäts-Kinderspital beider Basel"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0wa1j4c">
+        <inputEntry id="UnaryTests_0tbj59e">
+          <text>"&lt;18"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0t4gizq">
+          <text>"Luzern"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_06fivb4">
+          <text>"Kinderspital - Luzerner Kantonsspital"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0dahct0">
+        <inputEntry id="UnaryTests_07m32i7">
+          <text>"&lt;18"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0c965h8">
+          <text>"Solothurn"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_19z96z6">
+          <text>"UKBB - Universitäts-Kinderspital beider Basel"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0renxd7">
+        <inputEntry id="UnaryTests_15wx2ll">
+          <text>"&lt;18"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_11tskmo">
+          <text>"St. Gallen"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0qdsgzj">
+          <text>"Kinderspital Zürich - Eleonorenstiftung"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0srp3fu">
+        <inputEntry id="UnaryTests_10rchi8">
+          <text>"&lt;18"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1b23g8d">
+          <text>"Zug"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1w62xkd">
+          <text>"Kinderspital - Luzerner Kantonsspital"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1tb70p9">
+        <inputEntry id="UnaryTests_1kp3ak2">
+          <text>"&lt;18"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1d5qmpz">
+          <text>"Zürich"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0irpihw">
+          <text>"Kinderspital Zürich - Eleonorenstiftung"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0v9m5bo">
+        <inputEntry id="UnaryTests_09hzujz">
+          <text>"&lt;18"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_04tke03">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1b56ybg">
+          <text>"UKBB - Universitäts-Kinderspital beider Basel"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0om0qg7">
+        <inputEntry id="UnaryTests_0a8tapg">
+          <text>"&gt;=18"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1i6e3yg">
+          <text>"Aargau"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_09v7ejm">
+          <text>Kantonsspital Aarau</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_045gj1g">
+        <inputEntry id="UnaryTests_1vgvsbc">
+          <text>"&gt;=18"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_04y6r1y">
+          <text>"Basel"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1vlvc5v">
+          <text>"Universitätsspital Basel (USB)"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0i0jghi">
+        <inputEntry id="UnaryTests_1b5jcjc">
+          <text>"&gt;=18"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0aoq642">
+          <text>"Luzern"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0f8psoc">
+          <text>"Luzerner Kantonsspital"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0m5wc97">
+        <inputEntry id="UnaryTests_0qljfe1">
+          <text>"&gt;=18"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0hp3kxb">
+          <text>"Solothurn"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1vnbrkx">
+          <text>"Bürgerspital Solothurn"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1k1nbt6">
+        <inputEntry id="UnaryTests_1t2919h">
+          <text>"&gt;=18"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1j3lb84">
+          <text>"St. Gallen"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_00gyxkk">
+          <text>Kantonsspital St.Gallen</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_18sin2p">
+        <inputEntry id="UnaryTests_1tyksr7">
+          <text>"&gt;=18"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0izkzhb">
+          <text>"Zürich"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0772gy5">
+          <text>"UniversitätsSpital Zürich (USZ)"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1fmp04o">
+        <inputEntry id="UnaryTests_1keqobs">
+          <text>"&gt;=18"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_19dwcgz">
+          <text>"Zug"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0tjg3bt">
+          <text>"Zuger Kantonsspital"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1t98z8z">
+        <inputEntry id="UnaryTests_0g05svp">
+          <text>"&gt;=18"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0isz23m">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0h8gmul">
+          <text>"Universitätsspital Basel (USB)"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <inputData id="InputData_036ixgq" name="accident location" />
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Decision_Hospital">
+        <dc:Bounds height="80" width="180" x="160" y="80" />
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="DMNShape_0wva3pb" dmnElementRef="InputData_036ixgq">
+        <dc:Bounds height="45" width="125" x="187" y="317" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_193mm88" dmnElementRef="InformationRequirement_0et5bik">
+        <di:waypoint x="250" y="317" />
+        <di:waypoint x="250" y="180" />
+        <di:waypoint x="250" y="160" />
+      </dmndi:DMNEdge>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

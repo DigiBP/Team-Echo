@@ -32,6 +32,13 @@
           "textToSpeech": "",
           "lang": "de",
           "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "fr",
+          "condition": ""
         }
       ],
       "speech": []

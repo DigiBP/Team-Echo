@@ -1,9 +1,9 @@
 [
   {
-    "id": "b6e429e3-1b4d-4114-bfe7-c3af116c4039",
+    "id": "89dc1668-6ab2-4b16-9eb8-a14fbd22fa97",
     "data": [
       {
-        "text": "Emergency",
+        "text": "Can someone send a doctor to me please?",
         "userDefined": false
       }
     ],
@@ -13,10 +13,114 @@
     "updated": 0
   },
   {
-    "id": "ef661214-eb73-43fc-90fc-5d3198552ae4",
+    "id": "c7411d32-317d-4bbe-b3eb-20a013d3433c",
     "data": [
       {
-        "text": "Ambulance please",
+        "text": "Help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cc3fbc60-8915-4cec-bbf9-4b0d14dfb604",
+    "data": [
+      {
+        "text": "I am dying",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ccb8ea78-c089-47cd-8aa9-91f62a04bec6",
+    "data": [
+      {
+        "text": "someone is hurt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c5f90eb6-7f45-47af-9458-d4e7d79b9546",
+    "data": [
+      {
+        "text": "I need an ambulance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a46ac6e8-6be4-4fd8-802f-2f95c5a64684",
+    "data": [
+      {
+        "text": "I think someone is injured",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8386e539-82d3-46be-b9b9-305b31e88cec",
+    "data": [
+      {
+        "text": "I\u0027m dying",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6c7cb134-44e2-4094-ac03-3837c1fa7d7f",
+    "data": [
+      {
+        "text": "I think I\u0027m hurt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "12ff158b-8ea6-482c-a817-178c52cbfae5",
+    "data": [
+      {
+        "text": "I\u0027m hurt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b6e429e3-1b4d-4114-bfe7-c3af116c4039",
+    "data": [
+      {
+        "text": "Emergency",
         "userDefined": false
       }
     ],
@@ -47,46 +151,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "1b8077ea-385f-4265-964a-393e3b80af06",
-    "data": [
-      {
-        "text": "Yo",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "c7411d32-317d-4bbe-b3eb-20a013d3433c",
-    "data": [
-      {
-        "text": "Help",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "e7bd69ac-cc93-4643-84d4-abceb732d6e3",
-    "data": [
-      {
-        "text": "hello hi",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "en",
     "updated": 0
   },
