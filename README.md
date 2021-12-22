@@ -24,7 +24,7 @@ User interface on our Emergency Call app:<br><image src="https://user-images.git
         </ul>
 3. At this point, the paramedics are aware that a new patient needs to be assisted. The emergency call with the patient will be forwarded to an Emergency Call Agent to give first aid instructions. In the meantime, a paramedic will prepare for the dispatch to pick up the patient.<br><image src="https://user-images.githubusercontent.com/89810259/147160442-f98c76ea-73d9-44f4-a911-e33523c95cfc.png" width="650" height="250"><br>
 
-4. Once the dispatch is ready, the paramedic will drive to the patient at the given location and provide first aid to the patient. <br><image src="https://user-images.githubusercontent.com/89810259/147160725-72f3fc56-b517-4a93-9e31-8bda2a024f8a.png" width="250" height="650"><br>
+4. Once the dispatch is ready, the paramedic will drive to the patient at the given location and provide first aid to the patient. <br><image src="https://user-images.githubusercontent.com/89810259/147160725-72f3fc56-b517-4a93-9e31-8bda2a024f8a.png" width="150" height="420"><br>
 
 
 Start integromat scenarios (start process, ping app)
