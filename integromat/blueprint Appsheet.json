@@ -1,0 +1,370 @@
+{
+    "name": "Integromat to Appsheet",
+    "flow": [
+        {
+            "id": 1,
+            "module": "gateway:CustomWebHook",
+            "version": 1,
+            "parameters": {
+                "hook": 1168214,
+                "maxResults": 1
+            },
+            "mapper": {},
+            "metadata": {
+                "designer": {
+                    "x": 0,
+                    "y": 0
+                },
+                "restore": {
+                    "hook": {
+                        "label": "Caller info received from Dialogflow"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "hook",
+                        "type": "hook",
+                        "label": "Webhook",
+                        "required": true
+                    },
+                    {
+                        "name": "maxResults",
+                        "type": "number",
+                        "label": "Maximum number of results"
+                    }
+                ],
+                "interface": [
+                    {
+                        "name": "responseId",
+                        "type": "text"
+                    },
+                    {
+                        "name": "queryResult",
+                        "spec": [
+                            {
+                                "name": "queryText",
+                                "type": "text"
+                            },
+                            {
+                                "name": "action",
+                                "type": "text"
+                            },
+                            {
+                                "name": "parameters",
+                                "spec": [
+                                    {
+                                        "name": "person",
+                                        "spec": [
+                                            {
+                                                "name": "name",
+                                                "type": "text"
+                                            }
+                                        ],
+                                        "type": "collection"
+                                    },
+                                    {
+                                        "name": "canton",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "name": "address",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "name": "phoneNumber",
+                                        "type": "text"
+                                    }
+                                ],
+                                "type": "collection"
+                            },
+                            {
+                                "name": "allRequiredParamsPresent",
+                                "type": "boolean"
+                            },
+                            {
+                                "name": "fulfillmentText",
+                                "type": "text"
+                            },
+                            {
+                                "name": "fulfillmentMessages",
+                                "spec": {
+                                    "spec": [
+                                        {
+                                            "name": "text",
+                                            "spec": [
+                                                {
+                                                    "name": "text",
+                                                    "spec": {
+                                                        "type": "text"
+                                                    },
+                                                    "type": "array"
+                                                }
+                                            ],
+                                            "type": "collection"
+                                        }
+                                    ],
+                                    "type": "collection"
+                                },
+                                "type": "array"
+                            },
+                            {
+                                "name": "outputContexts",
+                                "spec": {
+                                    "spec": [
+                                        {
+                                            "name": "name",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "name": "lifespanCount",
+                                            "type": "number"
+                                        },
+                                        {
+                                            "name": "parameters",
+                                            "spec": [
+                                                {
+                                                    "name": "person",
+                                                    "spec": [
+                                                        {
+                                                            "name": "name",
+                                                            "type": "text"
+                                                        }
+                                                    ],
+                                                    "type": "collection"
+                                                },
+                                                {
+                                                    "name": "person.original",
+                                                    "type": "text"
+                                                },
+                                                {
+                                                    "name": "canton",
+                                                    "type": "text"
+                                                },
+                                                {
+                                                    "name": "canton.original",
+                                                    "type": "text"
+                                                },
+                                                {
+                                                    "name": "address",
+                                                    "type": "text"
+                                                },
+                                                {
+                                                    "name": "address.original",
+                                                    "type": "text"
+                                                },
+                                                {
+                                                    "name": "phoneNumber",
+                                                    "type": "text"
+                                                },
+                                                {
+                                                    "name": "phoneNumber.original",
+                                                    "type": "text"
+                                                }
+                                            ],
+                                            "type": "collection"
+                                        }
+                                    ],
+                                    "type": "collection"
+                                },
+                                "type": "array"
+                            },
+                            {
+                                "name": "intent",
+                                "spec": [
+                                    {
+                                        "name": "name",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "name": "displayName",
+                                        "type": "text"
+                                    }
+                                ],
+                                "type": "collection"
+                            },
+                            {
+                                "name": "intentDetectionConfidence",
+                                "type": "number"
+                            },
+                            {
+                                "name": "languageCode",
+                                "type": "text"
+                            },
+                            {
+                                "name": "sentimentAnalysisResult",
+                                "spec": [
+                                    {
+                                        "name": "queryTextSentiment",
+                                        "spec": [
+                                            {
+                                                "name": "score",
+                                                "type": "number"
+                                            },
+                                            {
+                                                "name": "magnitude",
+                                                "type": "number"
+                                            }
+                                        ],
+                                        "type": "collection"
+                                    }
+                                ],
+                                "type": "collection"
+                            }
+                        ],
+                        "type": "collection"
+                    },
+                    {
+                        "name": "originalDetectIntentRequest",
+                        "spec": [
+                            {
+                                "name": "source",
+                                "type": "text"
+                            },
+                            {
+                                "name": "payload",
+                                "spec": [],
+                                "type": "collection"
+                            }
+                        ],
+                        "type": "collection"
+                    },
+                    {
+                        "name": "session",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "module": "appsheet:createRecord",
+            "version": 1,
+            "parameters": {
+                "__IMTCONN__": 3168844
+            },
+            "mapper": {
+                "Record": [
+                    {
+                        "name": "Date",
+                        "value": "{{formatDate(now; \"DD.MM.YYYY HH:mm:ss\")}}"
+                    },
+                    {
+                        "name": "Phone number",
+                        "value": "{{1.queryResult.parameters.phoneNumber}}"
+                    },
+                    {
+                        "name": "Canton",
+                        "value": "{{1.queryResult.parameters.canton}}"
+                    },
+                    {
+                        "name": "Address",
+                        "value": "{{1.queryResult.parameters.address}}"
+                    },
+                    {
+                        "name": "Name",
+                        "value": "{{1.queryResult.parameters.person.name}}"
+                    }
+                ],
+                "tableName": "Update Callers",
+                "RunAsUserEmail": "s.roebbi@gmail.com"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 300,
+                    "y": 0
+                },
+                "restore": {
+                    "Record": {
+                        "mode": "chose",
+                        "items": [
+                            "undefined",
+                            "undefined",
+                            "undefined",
+                            "undefined",
+                            "undefined"
+                        ]
+                    },
+                    "__IMTCONN__": {
+                        "label": "Create a row in AppSheet"
+                    },
+                    "UserSettings": {
+                        "mode": "chose",
+                        "items": []
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "tableName",
+                        "type": "text",
+                        "label": "Table Name",
+                        "required": true
+                    },
+                    {
+                        "name": "Record",
+                        "spec": [
+                            {
+                                "name": "name",
+                                "type": "text",
+                                "label": "Key"
+                            },
+                            {
+                                "name": "value",
+                                "type": "text",
+                                "label": "Value"
+                            }
+                        ],
+                        "type": "array",
+                        "required": true
+                    },
+                    {
+                        "name": "RunAsUserEmail",
+                        "type": "email",
+                        "label": "Run as User Email"
+                    },
+                    {
+                        "name": "UserSettings",
+                        "spec": [
+                            {
+                                "name": "name",
+                                "type": "text",
+                                "label": "Setting Option Name"
+                            },
+                            {
+                                "name": "value",
+                                "type": "text",
+                                "label": "Setting Option Value"
+                            }
+                        ],
+                        "type": "array",
+                        "label": "User Settings"
+                    }
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "version": 1,
+        "scenario": {
+            "roundtrips": 1,
+            "shatter": false,
+            "maxErrors": 3,
+            "autoCommit": false,
+            "sequential": false,
+            "confidential": false,
+            "dataloss": false,
+            "dlq": false
+        },
+        "designer": {
+            "orphans": []
+        },
+        "zone": "eu1.integromat.com"
+    }
+}
