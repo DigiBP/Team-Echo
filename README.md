@@ -18,7 +18,7 @@ BPMN overview<br>
 <image src="https://user-images.githubusercontent.com/89810259/147153929-7b5cdfa0-f219-4b66-8e5f-7cd802a2ac21.png"><br><br>
 Start event triggered:<br><br><img src="https://user-images.githubusercontent.com/89810259/147154934-46ae57d9-dbd3-4f88-bc1c-abcf1b3f2daa.png" width="200" height="300"><br><br>
   </li>
-    <li>In parallel, Integromat sends the same patient data to <a href="https://www.appsheet.com/start/d8319de6-210c-403e-84ba-f66f587d6f6b"> our Emergency Call app</a> (an external service named Appsheet was used).<br>
+    <li>In parallel, Integromat sends the same patient data to <a href="https://www.appsheet.com/start/d8319de6-210c-403e-84ba-f66f587d6f6b"> our Emergency Manager app</a> (an external service named Appsheet was used).<br>
       <image src="https://user-images.githubusercontent.com/89810259/147151496-f2fa04a9-c3b0-4199-a9aa-ebf8e6bac5cf.png" width="630" height="320"><br><br>
 Appsheet transforms our Google Sheet "Callers" to an user-friendly data-monitoring platform with a modern user interface. <br><br>
           The app has been deployed to the Google Play store and can be <a href="https://www.appsheet.com/newshortcut/d8319de6-210c-403e-84ba-f66f587d6f6b">installed on the mobile phone</a> for the paramedic to monitor the real-time status of the incoming callers records. <br><br>
