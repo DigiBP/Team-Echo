@@ -49,3 +49,11 @@ User interface on our Emergency Call app (iPad view):<br><image src="https://use
     <li>Doctor - Michèle</li></ul>
 
 Watch our recorded Team Echo video on [Microsoft Teams](https://fhnw365.sharepoint.com/:v:/r/teams/AS21_MSc_MI_DigiBP_M365-5TeamEcho/Freigegebene%20Dokumente/5%EF%B8%8F%E2%83%A3%20Team%20Echo/Video/Team_Echo_Video.mp4?csf=1&web=1&e=jWX15j)
+
+## Links 
+[DigiBP-Echo website](https://sites.google.com/view/digibp-echo)<br>
+[Google sheet "Callers"](https://docs.google.com/spreadsheets/d/1-ItPmNLtE1ge84TAZbSCsejQhcTdEIR421aFEsS-cC4/edit#gid=0)<br>
+[App "Emergency Manager"](https://www.appsheet.com/start/d8319de6-210c-403e-84ba-f66f587d6f6b)<br>
+[Dialogflow](https://dialogflow.cloud.google.com/#/agent/emergency-call-qhun/intents)<br>
+[Integromat](https://www.integromat.com)<br>
+[DigiBP classroom instance](https://digibp.herokuapp.com/camunda/app/welcome/default/#!/login)
