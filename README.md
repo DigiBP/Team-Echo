@@ -48,7 +48,7 @@ User interface of our Emergency Call app (iPad view):<br><br><image src="https:/
     <li>Paramedic - Jérôme</li>
     <li>Doctor - Michèle</li></ul>
 
-Watch our recorded Team Echo video on [Microsoft Teams](https://fhnw365.sharepoint.com/:v:/r/teams/AS21_MSc_MI_DigiBP_M365-5TeamEcho/Freigegebene%20Dokumente/5%EF%B8%8F%E2%83%A3%20Team%20Echo/Video/Team_Echo_Video.mp4?csf=1&web=1&e=jWX15j)
+Watch our recorded Team Echo video on [Microsoft Teams](https://fhnw365.sharepoint.com/:v:/r/teams/AS21_MSc_MI_DigiBP_M365-5TeamEcho/Freigegebene%20Dokumente/5%EF%B8%8F%E2%83%A3%20Team%20Echo/Video/Team_Echo_Video.mp4?csf=1&web=1&e=jWX15j) or on [SWITCHTube](https://tube.switch.ch/videos/NBbokyjVC6)
 
 ## Links 
 [DigiBP-Echo website](https://sites.google.com/view/digibp-echo)<br>
