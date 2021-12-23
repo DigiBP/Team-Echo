@@ -10,7 +10,7 @@ Our website was built using [Google Sites](https://sites.google.com/). The chatb
 2. Two Integromat scenarios are triggered **in parallel**:
 <ul>
     <li>Integromat takes the patient information captured from Google DialogFlow and sends it to <a href="https://docs.google.com/spreadsheets/d/1-ItPmNLtE1ge84TAZbSCsejQhcTdEIR421aFEsS-cC4/edit?usp=sharing">Google Sheet "Callers"</a><br><br>
-The Google sheet is then immediately followed by a HTTP module on Integromat which triggers the start event on our process modelled in Camunda.<br><br>
+The Google sheet is then immediately followed by a HTTP module on Integromat which triggers the start event in our process modelled in Camunda.<br><br>
 <img src="https://user-images.githubusercontent.com/89810259/147152443-8ce25bc0-f2c2-4291-a6ab-6772bece1f76.png"><br><br>
 Dialogflow<br><image src="https://user-images.githubusercontent.com/89810259/147171597-70f61728-5ae5-4817-a1d9-932d9afd273d.png"><br><br>
 A Google Sheet named "Callers" is used to store the patient records:<br> <image src="https://user-images.githubusercontent.com/89810259/147171719-01cc3a6f-1dc1-4345-ad04-ceaf6d364a0d.png"><br><br>
