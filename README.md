@@ -26,9 +26,9 @@ Once a new patient has called or entered the contact information into DialogFlow
 User interface of our Emergency Call app (iPad view):<br><br><image src="https://user-images.githubusercontent.com/89810259/147155999-e532d869-e31a-40aa-8b3a-b388433b54e1.png", width="500" height="700"><br><br>
         </li>
         </ul>
-3. At this point, the paramedics are aware that a new patient needs to be assisted. The emergency call with patient data are forwarded to an Emergency Call Agent to give first aid instructions. Meanwhile, a paramedic prepares for dispatch to pick up the patient.<br><image src="https://user-images.githubusercontent.com/89810259/147160442-f98c76ea-73d9-44f4-a911-e33523c95cfc.png" width="920" height="350"><br>
+3. At this point, the paramedics are aware that a new patient needs to be assisted. The emergency call with patient data are forwarded to an Emergency Call Agent to give first aid instructions. Meanwhile, a paramedic prepares for dispatch to pick up the patient:<br><image src="https://user-images.githubusercontent.com/89810259/147160442-f98c76ea-73d9-44f4-a911-e33523c95cfc.png" width="920" height="350"><br>
 
-4. Once the dispatch is ready, the paramedic drives to the patient's location and provides any necessary first aid. <br><image src="https://user-images.githubusercontent.com/89810259/147165231-130ed01c-ee4e-4b35-b897-16be0c89db90.png" width="380" height="500"><br>
+4. Once the dispatch is ready, the paramedic drives to the patient's location and provides any necessary first aid:<br><image src="https://user-images.githubusercontent.com/89810259/147165231-130ed01c-ee4e-4b35-b897-16be0c89db90.png" width="380" height="500"><br>
 
 5. Afterwards, the paramedic has to decide which hospital the patient should be brought to: <br><image src="https://user-images.githubusercontent.com/89810259/147165527-d588f69f-8f0a-4f61-8e17-62582049b9ae.png" width="350" height="150"><br>A decision modelling notation (DMN) is used here:<br><image src="https://user-images.githubusercontent.com/89810259/147165851-b39a1aec-5211-46dc-921a-8e109e76b45a.png"><br>
         
