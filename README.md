@@ -23,7 +23,10 @@ Start event triggered:<br><br><img src="https://user-images.githubusercontent.co
 Appsheet transforms our Google Sheet "Callers" to an user-friendly data-monitoring platform with a modern user interface. <br><br>
           The app has been deployed to the Google Play store and can be <a href="https://www.appsheet.com/newshortcut/d8319de6-210c-403e-84ba-f66f587d6f6b">installed on the mobile phone</a> for the paramedic to monitor the real-time status of the incoming callers records. <br><br>
 Once a new patient has called or entered the contact information into DialogFlow, the paramedic will get an in-app notification showing: A new caller's record is created. <br><br>
-User interface of our Emergency Manager app (iPad view):<br><br><image src="https://user-images.githubusercontent.com/89810259/147155999-e532d869-e31a-40aa-8b3a-b388433b54e1.png", width="500" height="700"><br><br>
+User interface of our Emergency Manager app (iPad view):<br><br>Overview of the caller's info (sorted by descending date)<br><image src="https://user-images.githubusercontent.com/89810259/147155999-e532d869-e31a-40aa-8b3a-b388433b54e1.png" width="500" height="700"><br><br>
+          Choose the "Map" function to view the location of all callers:<br>
+          <image src="https://user-images.githubusercontent.com/89810259/147265813-9881de7b-c034-41d1-a4da-89c60c4b1a3b.png" width="500" height="700"><br>
+              Tap on the "Schedule" function to display a daily, weekly or monthly view of the callers records<br><image src="https://user-images.githubusercontent.com/89810259/147266660-2cb0bf81-8aea-42ff-b0bd-f9a81a3aa50e.png" width="500" height="700">
         </li>
         </ul>
 3. At this point, the paramedics are aware that a new patient needs to be assisted. The emergency call with patient data are forwarded to an Emergency Call Agent to give first aid instructions. Meanwhile, a paramedic prepares for dispatch to pick up the patient:<br><image src="https://user-images.githubusercontent.com/89810259/147160442-f98c76ea-73d9-44f4-a911-e33523c95cfc.png" width="920" height="350"><br>
