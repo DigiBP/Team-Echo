@@ -40,7 +40,7 @@ User interface on our Emergency Call app (iPad view):<br><image src="https://use
 
 9. The patient is directed to the selected treatment location and will get treated.
         
-## Role play for the video recording
+## Roles played in the video recording
 <br>
 <ul><li>Narrator - Adrian</li>
     <li>Patient - Xi</li>
